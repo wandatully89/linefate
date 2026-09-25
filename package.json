@@ -1,0 +1,13 @@
+{
+  "name": "linefate",
+  "version": "0.1.0",
+  "description": "Trace a single line through a text diff: where did it go?",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "linefate": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
