@@ -58,6 +58,15 @@ step whose old-side index matches the requested line. If it's part of an
 `equal` step, report the paired new-side line number. If it's part of a
 `delete` step, report that it's gone.
 
+## Tests
+
+```
+npm test
+```
+
+Runs `tsc` then hands the compiled output to Node's built-in test runner
+(`node --test`). No test framework dependency, same as everything else here.
+
 ## Limits
 
 - Whole files are loaded into memory and diffed in O((N+M)D) time, where D is
